@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <unisted.h>
+#include <stdlib.h>
 /**
-* main - Entry
-* Return: 1
+* main - Entry point
+* Return: Always 1 (success)
 */
 int main(void)
 {
-	write("\"and that piece of art is useful" - Dora Korpar, 2015-10-19\n, 59);
+	write(STDOUT_FILENO, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
