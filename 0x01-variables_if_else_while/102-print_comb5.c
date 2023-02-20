@@ -19,7 +19,7 @@ int main(void)
 			{
 				for (d = 48; d <= 57; d++)
 				{
-				if (((c + d) > (a + b) && c >= a) || b < d)
+				if (((c + d) > (a + b) && c >= a) || a < c)
 				{
 					putchar(a);
 					putchar(b);
