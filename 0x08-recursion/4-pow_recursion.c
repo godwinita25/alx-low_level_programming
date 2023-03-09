@@ -1,0 +1,18 @@
+#include "main"
+
+/**
+* _pow_recursion - Returns the value of x raised to the power of y
+* @x: the valuie to multiply
+* @y: the times to pultiply the value
+* Return: the value multiplied y times
+*/
+
+int _pow_recursion(int x, int y)
+{
+	if (y < 0)
+		return (-1);
+	if (y == 0)
+		return (1);
+
+	return (x * _pow_recursion(x, y - 1));
+}
